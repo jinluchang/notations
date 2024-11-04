@@ -63,6 +63,8 @@ f_\pi = \sqrt 2 F_\pi
 \end{align}
 $$
 
+Here $F_\pi \approx 92~\mathrm{MeV}$.
+
 $$
 \begin{align}
 \mathcal H_{\mu,\nu} (x, p)
@@ -70,9 +72,19 @@ $$
 \langle 0 | T J_\mu(x/2) J_\nu(-x/2) | \pi(\vec p) \rangle
 \\
 =&
-\epsilon_{\mu,\nu,\rho,\sigma}
+-\epsilon_{\mu,\nu,\rho,\sigma}
 x_\rho p_\sigma
 H(x^2,p\cdot x)
+\end{align}
+$$
+
+$$
+\begin{align}
+\mathcal{F}_ {\mu,\nu}(q_1,q_2)=& \int d^4x \, e^{-i\left(q_1-q_2\right)\cdot x/2}\mathcal{H}_ {\mu,\nu}(x,q_1 + q_2)
+\\
+\mathcal{F}_ {\mu,\nu}(q_1,q_2)=&
+i
+\epsilon_{\mu,\nu,\alpha,\beta}{q_1}_ {\alpha}{q_2}_ {\beta}\mathcal{F}_ {\pi^0\gamma^* \gamma^* }(-q_1^2,-q_2^2)
 \end{align}
 $$
 
@@ -153,7 +165,7 @@ Therefore:
 $$
 \begin{align}
 H(x^2, p\cdot x)
-\approx& -
+\approx&
 \frac{e_u^2 - e_d^2}{\pi^2}
 \frac{1}{(x^2)^2}
 F_\pi
