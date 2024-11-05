@@ -8,11 +8,10 @@ $$
 \newcommand{\Bra}{\Big\rangle}
 \newcommand{\Bla}{\Big\langle}
 \newcommand{\ud}{\mathrm{d}}
-\newcommand{\a}{a}
 \nn
 $$
 
-# Notation related to $\pi^0\to \gamma\gamma$
+# Related to $\pi^0\to \gamma\gamma$
 
 **Based on Euclidean notation (not the same as the $\gamma_5$ notation used in the code).**
 
@@ -88,7 +87,7 @@ i
 \end{align}
 $$
 
-### OPE relation
+## OPE relation
 
 At small $x$:
 

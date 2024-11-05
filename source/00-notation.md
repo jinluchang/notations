@@ -8,7 +8,6 @@ $$
 \newcommand{\Bra}{\Big\rangle}
 \newcommand{\Bla}{\Big\langle}
 \newcommand{\ud}{\mathrm{d}}
-\newcommand{\a}{a}
 \nn
 $$
 
