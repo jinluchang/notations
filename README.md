@@ -2,4 +2,4 @@
 
 Notations related to lattice QCD calculations.
 
-Check the individual Markdown files for details.
+<https://jinluchang.github.io/notations>
