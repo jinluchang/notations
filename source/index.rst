@@ -13,9 +13,8 @@ notations
    :caption: Contents:
 
    00-notation.md
-
    01-pi0-tff.md
-
+   02-baryon.md
 
 Indices and tables
 ==================
