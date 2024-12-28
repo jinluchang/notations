@@ -409,6 +409,7 @@ i
 $$
 
 The sign difference in $\gamma_x$ and $\gamma_z$ can be understood as a $180^\circ$ rotation around $y$ axis compared with the previous notation. To convert the two convention, we can use:
+
 $$
 \ba
 \left(
