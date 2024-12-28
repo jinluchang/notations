@@ -408,4 +408,30 @@ i
 \end{align}
 $$
 
-Note that the $\gamma_5$ matrix takes a different sign. This sign should be converted to the above Euclidean space when reporting the results.
+The sign difference in $\gamma_x$ and $\gamma_z$ can be understood as a $180^\circ$ rotation around $y$ axis compared with the previous notation. To convert the two convention, we can use:
+$$
+\ba
+\left(
+\begin{array}{cc}
+\psi_L^\text{Eucl} \\
+\psi_R^\text{Eucl} \\
+\end{array}
+\right)
+=
+\left(
+\begin{array}{cc}
+\sigma_y & 0 \\
+0 & \sigma_y\\
+\end{array}
+\right)
+\left(
+\begin{array}{cc}
+\psi_L^\text{Code}  \\
+\psi_R^\text{Code} \\
+\end{array}
+\right)
+\ea
+$$
+Or, we can keep the fermion spinor, but change the sign for all $\sigma_x$ and $\sigma_z$.
+
+**Note** that, the $\gamma_5$ matrix in the code notation takes a different sign. This sign difference is not related to the above rotation. This sign should simply be changed back to the above Euclidean notation when reporting the final results.
