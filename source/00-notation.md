@@ -417,7 +417,7 @@ $$
 \psi_L^\text{Eucl} \\
 \psi_R^\text{Eucl} \\
 \end{array}
-\right) =
+\right) =& i
 \left(
 \begin{array}{cc}
 \sigma_y & 0 \\
@@ -428,6 +428,25 @@ $$
 \begin{array}{cc}
 \psi_L^\text{Code}  \\
 \psi_R^\text{Code} \\
+\end{array}
+\right)
+\\
+\left(
+\begin{array}{cc}
+\psi_L^\text{Code}  \\
+\psi_R^\text{Code} \\
+\end{array}
+\right) =& \frac{1}{i}
+\left(
+\begin{array}{cc}
+\sigma_y & 0 \\
+0 & \sigma_y\\
+\end{array}
+\right)
+\left(
+\begin{array}{cc}
+\psi_L^\text{Eucl} \\
+\psi_R^\text{Eucl} \\
 \end{array}
 \right)
 \end{align}

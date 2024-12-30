@@ -19,7 +19,7 @@ The first baryon interpolation operator for proton is:
 
 $$
 \begin{align}
-N_i(x) =& \epsilon_{a,b,c} u_{i,a}(x) \big( u_{j,b}(x) (C\gamma_5)_{j,k} d_{k,c}\big)
+N_i(x) =& \epsilon_{a,b,c} u_{i,a}(x) \big( u_{j,b}(x) (C\gamma_5)_{j,k} d_{k,c}(x)\big)
 \end{align}
 $$
 
@@ -54,3 +54,10 @@ C \gamma_5 =& \gamma_t \gamma_y \gamma_5 =
 \epsilon_{0,1,2} =& 1
 \end{align}
 $$
+
+$$
+\begin{align}
+\bar{N}_i(x) =& -\epsilon_{a,b,c} \bar u_{i,a}(x) \big( \bar u_{j,b}(x) (C\gamma_5)_{j,k} \bar d_{k,c}(x)\big)
+\end{align}
+$$
+
