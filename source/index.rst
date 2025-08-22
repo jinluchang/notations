@@ -6,7 +6,8 @@
 notations
 =========
 
-.. math::
+   Source code of this document can be accessed at:
+   https://github.com/jinluchang/notations or https://gitee.com/jinluchang/notations.
 
 .. toctree::
    :maxdepth: 2
