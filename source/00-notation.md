@@ -240,6 +240,30 @@ G(x-y)
 \end{align}
 $$
 
+Some special cases:
+
+$$
+\begin{align}
+G(x)
+=&
+\frac{1}{4\pi^2 x^2}
+\quad
+\text{if }
+m=0
+\end{align}
+$$
+
+$$
+\begin{align}
+G(x)
+=&
+\frac{\sqrt{2 \pi m |x|}}{8\pi^2 x^2} e^{-m|x|}
+\quad
+\text{if }
+m|x| \gg 1
+\end{align}
+$$
+
 Fermion related notations:
 
 $$
