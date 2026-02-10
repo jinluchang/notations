@@ -12,34 +12,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - name: Show info
-      run: |
-        whoami
-        pwd
-        type python3
-        type pip3
-    - name: Install Ubuntu packages
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y git bzip2 autoconf unzip
-        sudo apt-get install -y python3-full python3-dev
-    - name: Show python venv
-      run: |
-        pip3 install Sphinx myst-parser linkify-it-py
-        python3 -c "import sys; print(sys.version)"
-        python3 -c "import sys; print(sys.path)"
-    - name: Build qlat-docs
-      run: |
-        make html
-        [ -f $PWD/build/html/index.html ]
+    - uses: cachix/install-nix-action@v30
+    - name: Build qlat
+      run: nix-build
     - uses: actions/upload-artifact@v4
       with:
-        name: html
-        path: build/html
+        name: qlat-docs
+        path: result/share/doc/notations/html
     - uses: actions/configure-pages@v4
     - uses: actions/upload-pages-artifact@v3
       with:
-        path: build/html
+        path: result/share/doc/notations/html
 
   deploy_docs:
     # Add a dependency to the build job
