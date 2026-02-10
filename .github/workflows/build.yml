@@ -11,16 +11,16 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-    - uses: cachix/install-nix-action@v30
+    - uses: actions/checkout@v6
+    - uses: cachix/install-nix-action@v31
     - name: Build qlat
       run: nix-build
-    - uses: actions/upload-artifact@v4
+    - uses: actions/upload-artifact@v6
       with:
         name: qlat-docs
         path: result/share/doc/notations/html
-    - uses: actions/configure-pages@v4
-    - uses: actions/upload-pages-artifact@v3
+    - uses: actions/configure-pages@v5
+    - uses: actions/upload-pages-artifact@v4
       with:
         path: result/share/doc/notations/html
 
