@@ -1,3 +1,4 @@
+<!--
 $$
 \def\ba#1\ea{\begin{align}#1\end{align}}
 \newcommand{\nn}{\nonumber}
@@ -10,6 +11,7 @@ $$
 \newcommand{\ud}{\mathrm{d}}
 \nn
 $$
+-->
 
 # Notation
 
@@ -481,6 +483,7 @@ Or, we can keep the fermion spinor, but change the sign for all $\sigma_x$ and $
 **Note** that, the $\gamma_5$ matrix in the code notation takes a different sign. This sign difference is not related to the above rotation. This sign should simply be changed back to the above Euclidean notation when reporting the final results.
 
 We also define the following projection operators.
+
 $$
 \begin{align}
 P_+ =& \frac{1 + \gamma_5}{2}
