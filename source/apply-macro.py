@@ -26,8 +26,8 @@ def substitute_macro(line, name, value):
 def process_line(line):
     line_orig = line
     line = substitute_macro(line, r"\nn", r"\nonumber")
-    line = substitute_macro(line, r"\ba", r"\begin{align}")
-    line = substitute_macro(line, r"\ea", r"\end{align}")
+    line = substitute_macro(line, r"\ba", r"\begin{aligned}")
+    line = substitute_macro(line, r"\ea", r"\end{aligned}")
     line = substitute_macro(line, r"\bra", r"\big\ra")
     line = substitute_macro(line, r"\bla", r"\big\la")
     line = substitute_macro(line, r"\Bra", r"\Big\ra")

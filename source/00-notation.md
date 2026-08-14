@@ -1,6 +1,6 @@
 <!--
 $$
-\def\ba#1\ea{\begin{align}#1\end{align}}
+\def\ba#1\ea{\begin{aligned}#1\end{aligned}}
 \newcommand{\nn}{\nonumber}
 \newcommand{\ra}{\rangle}
 \newcommand{\la}{\langle}
@@ -18,7 +18,7 @@ $$
 ## Common notation
 
 $$
-\begin{align}
+\begin{aligned}
 \sigma_x
 =&
 \left(
@@ -45,19 +45,19 @@ i & 0\\
 0 & -1\\
 \end{array}
 \right)
-\end{align}
+\end{aligned}
 $$
 
 $$
-\begin{align}
+\begin{aligned}
 [\sigma_i,\sigma_j] = 2 i \epsilon_{i,j,k} \sigma_k
-\end{align}
+\end{aligned}
 $$
 
 $$
-\begin{align}
+\begin{aligned}
 \epsilon_{x,y,z} = 1
-\end{align}
+\end{aligned}
 $$
 
 ## Minkowski notation
@@ -67,7 +67,7 @@ Conventions follows "An Introduction To Quantum Field Theory" by Michael E. Pesk
 https://www.amazon.com/Introduction-Quantum-Theory-Frontiers-Physics/dp/0201503972
 
 $$
-\begin{align}
+\begin{aligned}
 g_{\mu,\nu}
 =&
 \left(
@@ -78,11 +78,11 @@ g_{\mu,\nu}
 0 & 0 & 0 & -1\\
 \end{array}
 \right)
-\end{align}
+\end{aligned}
 $$
 
 $$
-\begin{align}
+\begin{aligned}
 \epsilon^{t,x,y,z}
 =&
 1
@@ -90,23 +90,23 @@ $$
 \epsilon_{t,x,y,z}
 =&
 -1
-\end{align}
+\end{aligned}
 $$
 
 Scalar propagator:
 
 $$
-\begin{align}
+\begin{aligned}
 G(x-y)
 =&
 \int \frac{d^4 p}{(2\pi)^4} \frac{i}{p^2 - m^2} e^{-i p\cdot (x-y)}
-\end{align}
+\end{aligned}
 $$
 
 Fermion related notations:
 
 $$
-\begin{align}
+\begin{aligned}
 \sigma^\mu
 =&
 (1, \vec \sigma)
@@ -114,11 +114,11 @@ $$
 \bar\sigma^\mu
 =&
 (1, -\vec \sigma)
-\end{align}
+\end{aligned}
 $$
 
 $$
-\begin{align}
+\begin{aligned}
 \gamma_\mu
 =&
 \left(
@@ -127,22 +127,22 @@ $$
 \bar\sigma^\mu & 0\\
 \end{array}
 \right)
-\end{align}
+\end{aligned}
 $$
 
 Continuum free fermion action
 
 $$
-\begin{align}
+\begin{aligned}
 S=&
 \int \bar\psi(x)(i \gamma^\mu\partial^x_\mu - m) \psi(x) d^4 x
-\end{align}
+\end{aligned}
 $$
 
 Free fermion propagator
 
 $$
-\begin{align}
+\begin{aligned}
 S^\textrm{Fermion}(x-y)
 =&
 \langle T\big(\psi(x) \bar\psi(y)\big) \rangle
@@ -155,11 +155,11 @@ S^\textrm{Fermion}(x-y)
 \\
 =&
 (i\gamma^\mu \partial^x_\mu + m)G(x-y)
-\end{align}
+\end{aligned}
 $$
 
 $$
-\begin{align}
+\begin{aligned}
 \gamma^\mu p_\mu + m
 =&
 \left(
@@ -168,11 +168,11 @@ m & E - \vec p\cdot \vec \sigma \\
 E + \vec p\cdot \vec \sigma & m\\
 \end{array}
 \right)
-\end{align}
+\end{aligned}
 $$
 
 $$
-\begin{align}
+\begin{aligned}
 \gamma_5
 =&
 \left(
@@ -182,19 +182,19 @@ $$
 \end{array}
 \right) =
 i\gamma^t \gamma^x \gamma^y \gamma^z
-\end{align}
+\end{aligned}
 $$
 
 $$
-\begin{align}
+\begin{aligned}
 P_R =& \frac{1 + \gamma_5}{2}
 \\
 P_L =& \frac{1 - \gamma_5}{2}
-\end{align}
+\end{aligned}
 $$
 
 $$
-\begin{align}
+\begin{aligned}
 \psi_L =& P_L \psi
 \\
 \psi_R =& P_R \psi
@@ -202,13 +202,13 @@ $$
 \bar\psi_L =& \bar\psi P_R
 \\
 \bar\psi_R =& \bar\psi P_L
-\end{align}
+\end{aligned}
 $$
 
 ## Euclidean notation
 
 $$
-\begin{align}
+\begin{aligned}
 g_{\mu,\nu} =
 \delta_{\mu,\nu}
 =&
@@ -220,64 +220,64 @@ g_{\mu,\nu} =
 0 & 0 & 0 & 1\\
 \end{array}
 \right)
-\end{align}
+\end{aligned}
 $$
 
 $$
-\begin{align}
+\begin{aligned}
 \epsilon_{x,y,z,t} = 1
-\end{align}
+\end{aligned}
 $$
 
 Scalar propagator:
 
 $$
-\begin{align}
+\begin{aligned}
 G(x-y)
 =&
 \int \frac{d^4 p}{(2\pi)^4} \frac{1}{p^2 + m^2} e^{i p\cdot (x-y)}
 \\
 =&
 \frac{m \textrm{BesselK}(1, m\sqrt{(x-y)^2})}{4\pi^2\sqrt{(x-y)^2}}
-\end{align}
+\end{aligned}
 $$
 
 Some special cases:
 
 $$
-\begin{align}
+\begin{aligned}
 G(x)
 =&
 \frac{1}{4\pi^2 x^2}
 \quad
 \text{if }
 m=0
-\end{align}
+\end{aligned}
 $$
 
 $$
-\begin{align}
+\begin{aligned}
 G(x)
 =&
 \frac{\sqrt{2 \pi m |x|}}{8\pi^2 x^2} e^{-m|x|}
 \quad
 \text{if }
 m|x| \gg 1
-\end{align}
+\end{aligned}
 $$
 
 Fermion related notations:
 
 $$
-\begin{align}
+\begin{aligned}
 \sigma_\mu
 =&
 (i, \vec \sigma)
-\end{align}
+\end{aligned}
 $$
 
 $$
-\begin{align}
+\begin{aligned}
 \gamma_\mu
 =&
 -i
@@ -287,22 +287,22 @@ $$
 -\sigma_\mu^\dagger & 0\\
 \end{array}
 \right)
-\end{align}
+\end{aligned}
 $$
 
 Continuum free fermion action
 
 $$
-\begin{align}
+\begin{aligned}
 S=&
 \int \bar\psi(x)(\gamma_\mu\partial^x_\mu + m) \psi(x) d^4 x
-\end{align}
+\end{aligned}
 $$
 
 Free fermion propagator
 
 $$
-\begin{align}
+\begin{aligned}
 S^\textrm{Fermion}(x-y)
 =&
 \langle T\big(\psi(x) \bar\psi(y)\big) \rangle
@@ -315,11 +315,11 @@ S^\textrm{Fermion}(x-y)
 \\
 =&
 (-\gamma_\mu \partial^x_\mu + m)G(x-y)
-\end{align}
+\end{aligned}
 $$
 
 $$
-\begin{align}
+\begin{aligned}
 -i\gamma_\mu p_\mu + m
 =&
 \left(
@@ -328,7 +328,7 @@ m & E - \vec p\cdot \vec \sigma \\
 E + \vec p\cdot \vec \sigma & m\\
 \end{array}
 \right)
-\end{align}
+\end{aligned}
 $$
 
 > Quote (https://en.wikipedia.org/wiki/Chirality_(physics)):
@@ -338,7 +338,7 @@ $$
 Based on the above definition, in the chiral limit where $m\to 0$, we can see that the upper two components represent left-handed fermion and the lower two components represent right-handed fermion. So we have:
 
 $$
-\begin{align}
+\begin{aligned}
 \gamma_5
 =&
 \left(
@@ -348,19 +348,19 @@ $$
 \end{array}
 \right) =
 \gamma_t \gamma_x \gamma_y \gamma_z 
-\end{align}
+\end{aligned}
 $$
 
 $$
-\begin{align}
+\begin{aligned}
 P_R =& \frac{1 + \gamma_5}{2}
 \\
 P_L =& \frac{1 - \gamma_5}{2}
-\end{align}
+\end{aligned}
 $$
 
 $$
-\begin{align}
+\begin{aligned}
 \psi_L =& P_L \psi
 \\
 \psi_R =& P_R \psi
@@ -368,7 +368,7 @@ $$
 \bar\psi_L =& \bar\psi P_R
 \\
 \bar\psi_R =& \bar\psi P_L
-\end{align}
+\end{aligned}
 $$
 
 ## Code notation
@@ -382,7 +382,7 @@ https://github.com/lehner/gpt
 https://github.com/jinluchang/Qlattice
 
 $$
-\begin{align}
+\begin{aligned}
 \gamma_x
 =&
 i
@@ -431,13 +431,13 @@ i
 \end{array}
 \right) =
 \gamma_x \gamma_y \gamma_z \gamma_t
-\end{align}
+\end{aligned}
 $$
 
 The sign difference in $\gamma_x$ and $\gamma_z$ can be understood as a $180^\circ$ rotation around $y$ axis compared with the previous notation. To convert the two convention, we can use:
 
 $$
-\begin{align}
+\begin{aligned}
 \left(
 \begin{array}{cc}
 \psi_L^\text{Eucl} \\
@@ -475,7 +475,7 @@ $$
 \psi_R^\text{Eucl} \\
 \end{array}
 \right)
-\end{align}
+\end{aligned}
 $$
 
 Or, we can keep the fermion spinor, but change the sign for all $\sigma_x$ and $\sigma_z$.
@@ -485,9 +485,9 @@ Or, we can keep the fermion spinor, but change the sign for all $\sigma_x$ and $
 We also define the following projection operators.
 
 $$
-\begin{align}
+\begin{aligned}
 P_+ =& \frac{1 + \gamma_5}{2}
 \\
 P_- =& \frac{1 - \gamma_5}{2}
-\end{align}
+\end{aligned}
 $$

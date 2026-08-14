@@ -1,6 +1,6 @@
 <!--
 $$
-\def\ba#1\ea{\begin{align}#1\end{align}}
+\def\ba#1\ea{\begin{aligned}#1\end{aligned}}
 \newcommand{\nn}{\nonumber}
 \newcommand{\ra}{\rangle}
 \newcommand{\la}{\langle}
@@ -20,15 +20,15 @@ $$
 The first baryon interpolation operator for proton is:
 
 $$
-\begin{align}
+\begin{aligned}
 N_i(x) =& \epsilon_{a,b,c} u_{i,a}(x) \big( u_{j,b}(x) (C\gamma_5)_{j,k} d_{k,c}(x)\big)
-\end{align}
+\end{aligned}
 $$
 
 where summing over repeated indices is assumed, where
 
 $$
-\begin{align}
+\begin{aligned}
 C =& \gamma_t \gamma_y =
 i
 \left(
@@ -54,12 +54,12 @@ C \gamma_5 =& \gamma_t \gamma_y \gamma_5 =
 \right)
 \\
 \epsilon_{0,1,2} =& 1
-\end{align}
+\end{aligned}
 $$
 
 $$
-\begin{align}
+\begin{aligned}
 \bar{N}_i(x) =& -\epsilon_{a,b,c} \bar u_{i,a}(x) \big( \bar u_{j,b}(x) (C\gamma_5)_{j,k} \bar d_{k,c}(x)\big)
-\end{align}
+\end{aligned}
 $$
 

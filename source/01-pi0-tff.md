@@ -1,6 +1,6 @@
 <!--
 $$
-\def\ba#1\ea{\begin{align}#1\end{align}}
+\def\ba#1\ea{\begin{aligned}#1\end{aligned}}
 \newcommand{\nn}{\nonumber}
 \newcommand{\ra}{\rangle}
 \newcommand{\la}{\langle}
@@ -20,54 +20,54 @@ $$
 The axial current that couple to $\pi^0$ is:
 
 $$
-\begin{align}
+\begin{aligned}
 J_{\mu}^{5,\pi^0}(x) = \frac{1}{\sqrt 2}
 \big(
 \bar u(x) \gamma_\mu \gamma_5 u(x) -
 \bar d(x) \gamma_\mu \gamma_5 d(x)
 \big)
-\end{align}
+\end{aligned}
 $$
 
 The corresponding pseudo-scalar density
 
 $$
-\begin{align}
+\begin{aligned}
 P^{\pi^0}(x) =
 \frac{1}{\sqrt 2} \big(
 \bar u(x) \gamma_5 u(x) -
 \bar d(x) \gamma_5 d(x)
 \big)
-\end{align}
+\end{aligned}
 $$
 
 We have ($p_t = i \sqrt{m_\pi^2 + \vec p^2 }$)
 
 $$
-\begin{align}
+\begin{aligned}
 \langle 0 | i J_\mu^{5,\pi^0}(0) | \pi^0(\vec p) \rangle =
 i f_\pi p_\mu
-\end{align}
+\end{aligned}
 $$
 
 $$
-\begin{align}
+\begin{aligned}
 \langle 0 | i P^{\pi^0}(0) | \pi^0(\vec p) \rangle
 = f_\pi
 \frac{m_\pi^2}{2 m_l}
-\end{align}
+\end{aligned}
 $$
 
 $$
-\begin{align}
+\begin{aligned}
 f_\pi = \sqrt 2 F_\pi
-\end{align}
+\end{aligned}
 $$
 
 Here $F_\pi \approx 92~\mathrm{MeV}$.
 
 $$
-\begin{align}
+\begin{aligned}
 \mathcal H_{\mu,\nu} (x, p)
 =&
 \langle 0 | T J_\mu(x/2) J_\nu(-x/2) | \pi(\vec p) \rangle
@@ -76,17 +76,17 @@ $$
 -\epsilon_{\mu,\nu,\rho,\sigma}
 x_\rho p_\sigma
 H(x^2,p\cdot x)
-\end{align}
+\end{aligned}
 $$
 
 $$
-\begin{align}
+\begin{aligned}
 \mathcal{F}_ {\mu,\nu}(q_1,q_2)=& \int d^4x \, e^{-i\left(q_1-q_2\right)\cdot x/2}\mathcal{H}_ {\mu,\nu}(x,q_1 + q_2)
 \\
 \mathcal{F}_ {\mu,\nu}(q_1,q_2)=&
 i
 \epsilon_{\mu,\nu,\alpha,\beta}{q_1}_ {\alpha}{q_2}_ {\beta}\mathcal{F}_ {\pi^0\gamma^* \gamma^* }(-q_1^2,-q_2^2)
-\end{align}
+\end{aligned}
 $$
 
 ## OPE relation
@@ -94,7 +94,7 @@ $$
 At small $x$:
 
 $$
-\begin{align}
+\begin{aligned}
 S^q(x)
 =&
 \langle T\{q(x) \bar q(0) \} \rangle
@@ -105,11 +105,11 @@ S^q(x)
 \approx&
 \frac{2 x_\rho \gamma_\rho + m_q x^2}{4\pi^2 (x^2)^2}
 \\
-\end{align}
+\end{aligned}
 $$
 
 $$
-\begin{align}
+\begin{aligned}
 \gamma_\mu \gamma_\rho\gamma_\nu =
 -\epsilon_{\mu,\nu,\rho,\sigma} \gamma_\sigma \gamma_5
 +
@@ -118,11 +118,11 @@ $$
 +\delta_{\rho,\nu}\gamma_\mu
 -\delta_{\mu,\nu}\gamma_\rho
 )
-\end{align}
+\end{aligned}
 $$
 
 $$
-\begin{align}
+\begin{aligned}
 T\{J_\mu(x) J_\nu(0)\}
 =&
 \sum_q
@@ -139,11 +139,11 @@ x_\rho
 \sum_q
 e_q^2
 \bar q(\frac{x}{2}) \gamma_\sigma \gamma_5 q(\frac{x}{2})
-\end{align}
+\end{aligned}
 $$
 
 $$
-\begin{align}
+\begin{aligned}
 \mathcal H_{\mu,\nu} (x, p)
 \approx&
 -\frac{1}{\pi^2(x^2)^2}
@@ -158,17 +158,17 @@ e_q^2
 \epsilon_{\mu,\nu,\rho,\sigma}
 \frac{x_\rho}{(x^2)^2}
 \frac{f_\pi}{\sqrt 2} p_\sigma
-\end{align}
+\end{aligned}
 $$
 
 Therefore:
 
 $$
-\begin{align}
+\begin{aligned}
 H(x^2, p\cdot x)
 \approx&
 \frac{e_u^2 - e_d^2}{\pi^2}
 \frac{1}{(x^2)^2}
 F_\pi
-\end{align}
+\end{aligned}
 $$

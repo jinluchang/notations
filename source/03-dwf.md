@@ -1,6 +1,6 @@
 <!--
 $$
-\def\ba#1\ea{\begin{align}#1\end{align}}
+\def\ba#1\ea{\begin{aligned}#1\end{aligned}}
 \newcommand{\nn}{\nonumber}
 \newcommand{\ra}{\rangle}
 \newcommand{\la}{\langle}
@@ -18,8 +18,9 @@ $$
 **Based on Code notation (not the same as the Euclidean $\gamma_5$ defined before).**
 
 Domain wall fermion formulation introduces the fifth dimension, which label as $s$. The action is
+
 $$
-\begin{align}
+\begin{aligned}
 S_F^\text{DWF}
 =&
 \sum_{x,s;x',s'}
@@ -52,7 +53,8 @@ m(s)
 =&
 -m\delta(s)
 +1-\delta(s)
-\end{align}
+\end{aligned}
 $$
+
 where $x,x'$ represent space time coordinates of lattice sites, and $s,s'$ represent the coordinates in the fifth dimension, range from $0$ to $L_s-1$ ($L_s$ sites in the fifth dimension). All the components of the coordinates are integers.
 
