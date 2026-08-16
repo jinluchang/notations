@@ -37,7 +37,7 @@ i & 0\\
 \end{array}
 \right)
 \\
-\sigma_x
+\sigma_z
 =&
 \left(
 \begin{array}{cc}

@@ -14,9 +14,11 @@ notations
    :caption: Contents:
 
    00-notation.md
-   01-pi0-tff.md
-   02-baryon.md
-   03-dwf.md
+   01-gauge-field.md
+   02-anomaly.md
+   03-pi0-tff.md
+   04-baryon.md
+   05-dwf.md
 
 Indices and tables
 ==================
