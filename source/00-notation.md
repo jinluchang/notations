@@ -139,6 +139,15 @@ S=&
 \end{aligned}
 $$
 
+QED interaction term
+
+$$
+\begin{aligned}
+S_{\rm int}=&
+-q \int \bar\psi(x) \gamma^\mu A_\mu(x) \psi(x) d^4 x
+\end{aligned}
+$$
+
 Free fermion propagator
 
 $$
@@ -296,6 +305,15 @@ $$
 \begin{aligned}
 S=&
 \int \bar\psi(x)(\gamma_\mu\partial^x_\mu + m) \psi(x) d^4 x
+\end{aligned}
+$$
+
+QED interaction term
+
+$$
+\begin{aligned}
+S_{\rm int}=&
+i q \int \bar\psi(x) \gamma_\mu A_\mu(x) \psi(x) d^4 x
 \end{aligned}
 $$
 
